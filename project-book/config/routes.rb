@@ -15,7 +15,7 @@ ProjectBook::Application.routes.draw do
     root to: 'statuses#index'
 
 
-
+      get '/:id', to: 'profiles#show'
 
       
 

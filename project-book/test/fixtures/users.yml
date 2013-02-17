@@ -1,5 +1,11 @@
 bobby:
-  profile_name: "bobbyhey"
-  email: "bobby@project.me"
-  first_name: "bobby"
-  last_name: "hey"
+    profile_name: "bobbyhey"
+    email: "bobby@project.me"
+    first_name: "bobby"
+    last_name: "hey"
+
+jim:
+    first_name: "Jim"
+    last_name: "Hoskins"
+    email: "jim@project.me"
+    profile_name: "jimhoskins"

@@ -33274,3 +33274,62 @@ Served asset /statuses.js - 304 Not Modified (23ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 18:22:32 +0000
 Served asset /application.js - 304 Not Modified (4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/sammyb" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"sammyb"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."profile_name" = 'sammyb' LIMIT 1[0m
+  [1m[35mStatus Load (0.1ms)[0m  SELECT "statuses".* FROM "statuses" WHERE "statuses"."user_id" = 5
+  Rendered profiles/show.html.erb within layouts/application (23.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+Completed 200 OK in 111ms (Views: 51.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/statuses.css?body=1" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Served asset /statuses.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Served asset /bootstrap.min.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Served asset /profiles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Served asset /profiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/statuses.js?body=1" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Served asset /statuses.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-17 18:29:22 +0000
+Served asset /application.js - 304 Not Modified (4ms)
